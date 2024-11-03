@@ -1,11 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     min-height: 70px;
-    display: flex;
-    justify-content:flex-start;
-    align-items: flex-end;
+   
 }
 .first {
     width: 100%;
+    margin: 10px;
     min-height: 100px;
     display: block;
     background-color: white;
@@ -61,9 +64,39 @@ input{
 .announce {
     width: 100%;
     display:flex;
-    padding: 20px;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    padding: 10px;
+    flex-direction: column;
     align-items: center;
-    background-color: aqua;
+    background-color: #40b4e2;
+}
+
+.firstbox{
+    background-color: #ea0029;
+    display: flex;
+    width: 100%;
+
+}
+.secbox {
+    width: 50%;
+    margin: 100px;
+    display:flex;
+}
+
+.thirdbox {
+    font-family: "Frankfurter Medium Std";
+    font-size: 35px;
+    line-height: 56px;
+    margin-bottom: 32px;
+    display:flex;
+}
+.fourthbox{
+    font-family: futura-pt;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    display:flex;
+}
+
+.fifthbox {
+     display: flex;
 }
