@@ -64,7 +64,8 @@ input{
 .announce {
     width: 100%;
     display:flex;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     flex-direction: column;
     align-items: center;
     background-color: #40b4e2;
@@ -86,7 +87,6 @@ input{
     font-family: "Frankfurter Medium Std";
     font-size: 25px;
     line-height: 56px;
-    margin-bottom: 32px;
     display:flex;
     justify-content: center;
 }
@@ -102,20 +102,34 @@ input{
 .fifthbox {
     display: flex;
     background-color: white; 
+    font-size: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     margin-right: 2px;
     padding-left: 10px;
     padding-right: 10px;
+    margin-top: 10px;
     max-width: 252px;
+    justify-content: center;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-color: rgba(0, 0, 0, 1);
+    border-style: solid;
 }
 
 .hellokitty {
     display: flex;
+    justify-content: center;
 }
 
 .fwkitty {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     font-family: 'Futura PT', sans-serif;
+    font-size: 20px;
 
 }
 
@@ -123,10 +137,42 @@ input{
     width: 50%;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 
+.follow {
+    display: flex;
+    justify-content: center;
+}
 .kittylogo {
     display: flex;
     width: 50%;
     flex-direction: column;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+}
+
+svg {
+    width: 36px;
+}
+.facebook{
+    margin-right: 10px;
+}
+
+.insta {
+    margin-right: 10px;
+}
+.twitter {
+    margin-right: 10px;
+}
+
+.snap {
+    margin-right: 10px;
+}
+
+.pin {
+
 }
