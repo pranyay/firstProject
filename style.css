@@ -77,15 +77,14 @@ input{
 
 }
 .secbox {
-    width: 50%;
     margin: 100px;
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .thirdbox {
     font-family: "Frankfurter Medium Std";
-    font-size: 35px;
+    font-size: 25px;
     line-height: 56px;
     margin-bottom: 32px;
     display:flex;
@@ -115,13 +114,19 @@ input{
 
 .fwkitty {
     display: flex;
+    justify-content: center;
+    font-family: 'Futura PT', sans-serif;
+
 }
 
 .para {
+    width: 50%;
     display: flex;
     flex-direction: column;
 }
 
 .kittylogo {
     display: flex;
+    width: 50%;
+    flex-direction: column;
 }
