@@ -80,6 +80,7 @@ input{
     width: 50%;
     margin: 100px;
     display:flex;
+    flex-direction: column;
 }
 
 .thirdbox {
@@ -88,16 +89,39 @@ input{
     line-height: 56px;
     margin-bottom: 32px;
     display:flex;
+    justify-content: center;
 }
 .fourthbox{
-    font-family: futura-pt;
+    font-family: 'Futura PT', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     display:flex;
+    text-align: center;
 }
 
 .fifthbox {
-     display: flex;
-     
+    display: flex;
+    background-color: white; 
+    margin-right: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 252px;
+}
+
+.hellokitty {
+    display: flex;
+}
+
+.fwkitty {
+    display: flex;
+}
+
+.para {
+    display: flex;
+}
+
+.kittylogo {
+    display: flex;
+    width: 50%;
 }
